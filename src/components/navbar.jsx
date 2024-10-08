@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 function Navbar() {
   return (
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="/">
       Navbar
     </a>
     <button
@@ -48,8 +48,8 @@ function Navbar() {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <a className="dropdown-item" href="#">
-                Action
+              <a className="dropdown-item" href="/about">
+                About me
               </a>
             </li>
             <li>

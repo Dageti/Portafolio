@@ -8,7 +8,7 @@ import Projects from './pages/projects.jsx';
 import Aboutme from './pages/aboutme.jsx';
 
 
-function App() {
+const App =() => {
   return (
       <Router>
         <Navbar />
@@ -16,6 +16,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/about' element={<Aboutme/>}/>
+          <Route path='*' element={<h1>Not found!</h1>}/>
         </Routes>
       </Router>
 
