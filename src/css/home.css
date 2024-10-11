@@ -1,0 +1,29 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #9f6544, #cfad99);
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffffa9;
+  }
+  
+  .hero .btn {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #7c7e7c;
+  }

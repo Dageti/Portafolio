@@ -1,43 +1,48 @@
 import React from "react";
+import "../css/aboutme.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-const Aboutme = () => {
+const AboutMe = () => {
   return (
-    <>
-      <div className="contact-page">
-        <div className="container">
-          <h2>About me</h2>
-          <p>
-            Hi, I'm a full-stack developer who has just started in this world. I
-            am eager to keep learning how to create dynamic designs. I have
-            experience in technologies like react, python and flask.
-          </p>
-        </div>
-        <div className="container">
-          <h2>contact me</h2>
-          <p>
-            Contact me via email at:
-            <a href="mailto:mat500.600@gmail.com">mat500.600@gmail.com</a>
-          </p>
-          <p>or find me here:</p>
-          <ul>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/matias-rivas-gallardo/"
-                target="_blank"
-              >
-                linkedIn
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Dageti" target="_blank">
-                Github
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div className="about-container">
+      <h1>About Me</h1>
+      <p>
+        I am a junior full-stack developer with knowledge in HTML, CSS,
+        JavaScript, React, Flask, and Python. I enjoy working on projects that
+        allow me to improve my coding skills, especially in front-end
+        development and API integration.
+      </p>
+      <p>
+        I am continuously learning and expanding my expertise in full-stack
+        development, with a focus on building responsive, user-friendly web
+        applications.
+      </p>
+      <p>
+        Feel free to reach out to me through my LinkedIn or check out my GitHub
+        for more projects.
+      </p>
+      <div className="social-links">
+        <a 
+          className="btn-linkedin"
+          href="https://www.linkedin.com/in/matias-rivas-gallardo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+
+        <a
+          className="btn-github"
+          href="https://github.com/Dageti"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Aboutme;
+export default AboutMe;

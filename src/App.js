@@ -1,5 +1,7 @@
 import React from 'react';
 import '../src/css/App.css';
+import '../src/css/home.css';
+import '../src/css/aboutme.css';
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/navbar.jsx';
@@ -8,7 +10,7 @@ import Projects from './pages/projects.jsx';
 import Aboutme from './pages/aboutme.jsx';
 
 
-const App =() => {
+const App = () => {
   return (
       <Router>
         <Navbar />

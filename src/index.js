@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../src/css/index.css';
+import '../src/css/home.css';
+import '../src/css/navbar.css';
+import '../src/css/aboutme.css';
+import '../src/css/projects.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
