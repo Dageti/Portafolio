@@ -7,11 +7,11 @@ const ProjectCard = ({ title, description, githubLink }) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <div className="card-buttons">
-          <a href={githubLink} target="_blank" rel="noopener noreferrer" className="btn">
+
+          <a href={githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-dark">
             Repository
           </a>
-        </div>
+
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const Home = () => {
       <div className="hero">
         <h1>Hello, I'm Matías</h1>
         <h2>Full-Stack Developer</h2>
-        <a href="/projects" className="btn hero-btn">View My Projects</a>
+        <a href="/projects" className="btn btn-dark">View My Projects</a>
       </div>
     </div>
   </>)

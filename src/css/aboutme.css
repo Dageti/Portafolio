@@ -1,21 +1,85 @@
-.about-container {
-    padding: 3rem 2rem;
-    text-align: center;
-  }
-  
   .about-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
   }
   
+  .about-container p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffffa9;
+    max-width: 800px;
+  }
   .social-links {
-    margin-top: 1.5rem;
-    color:black
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .social-links a {
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.2);
+    color: #7c7e7c; 
   }
   
   .btn-linkedin {
-
-
-    margin-right: 1rem;
+    color: white;
   }
   
+  .btn-github {
+    color: white;
+  }
+  .about-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, #000000, #0e0349);
+    color: white;
+  }
+  
+  .about-container h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .about-container p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffffa9;
+    max-width: 800px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .social-links a {
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.2);
+    color: #7c7e7c;
+  }
+  
+  .btn-linkedin {
+    color: white;
+  }
+  
+  .btn-github {
+    color: white
+  }
