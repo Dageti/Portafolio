@@ -1,12 +1,13 @@
 .home-container {
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(135deg, #000000, #0e0349);
-  padding: 1rem;
+  justify-content: center; 
+  align-items: center; 
+  background: linear-gradient(135deg, #000000, #0e0349); 
 }
-
+.hero{
+  text-align: center;
+}
 .hero h1 {
   font-size: 3rem;
   color: whitesmoke;
