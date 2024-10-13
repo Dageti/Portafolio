@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Projectcard from "../components/projectcard.jsx";
 
 const projects = [
@@ -168,6 +168,10 @@ const projects = [
 ];
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="projects-container">
       <h1>My Projects</h1>
