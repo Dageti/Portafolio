@@ -2,13 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "react-i18next";
+import i18n from "../i18n";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <nav className="navbar navbar-expand-lg  sticky-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          My Portfolio
+          {t("navbar.brand")}
         </Link>
         <button
           className="navbar-toggler"
@@ -24,13 +32,23 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
+              <button
+                className="btn langbtn"
+                onClick={() =>
+                  changeLanguage(i18n.language === "en" ? "es" : "en")
+                }
+              >
+                {t("navbar.switch_language")}
+              </button>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/projects">
-                Projects
+              {t("navbar.projects")}
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">
-                About Me
+              {t("navbar.about")}
               </Link>
             </li>
             <li className="nav-item">

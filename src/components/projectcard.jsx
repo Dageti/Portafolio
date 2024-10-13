@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const ProjectCard = ({ title, description, githubLink }) => {
+  const { t } = useTranslation();
   return (
     <div className="card project-card">
       <div className="card-body">
@@ -13,7 +15,7 @@ const ProjectCard = ({ title, description, githubLink }) => {
           rel="noopener noreferrer"
           className="btn btn-dark"
         >
-          Repository
+          {t("projects.button")}
         </a>
       </div>
     </div>

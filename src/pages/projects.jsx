@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Projectcard from "../components/projectcard.jsx";
+import { useTranslation } from "react-i18next";
 
 const projects = [
   {
@@ -168,13 +169,14 @@ const projects = [
 ];
 
 const Projects = () => {
+  const { t } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="projects-container">
-      <h1>My Projects</h1>
+      <h1>{t("projects.pagetitle")}</h1>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <Projectcard

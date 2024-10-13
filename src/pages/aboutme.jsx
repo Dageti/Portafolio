@@ -2,25 +2,22 @@ import React from "react";
 import "../css/aboutme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "react-i18next";
 
 const AboutMe = () => {
+  const { t } = useTranslation();
+  
   return (
     <div className="about-container">
-      <h1>About Me</h1>
+      <h1>{t("aboutme.title")}</h1>
       <p>
-        I am a junior full-stack developer with knowledge in HTML, CSS,
-        JavaScript, React, Flask, and Python. I enjoy working on projects that
-        allow me to improve my coding skills, especially in front-end
-        development and API integration.
+      {t("aboutme.p1")}
       </p>
       <p>
-        I am continuously learning and expanding my expertise in full-stack
-        development, with a focus on building responsive, user-friendly web
-        applications.
+      {t("aboutme.p2")}
       </p>
       <p>
-        Feel free to reach out to me through my LinkedIn or check out my GitHub
-        for more projects.
+      {t("aboutme.p3")}
       </p>
       <div className="social-links">
         <a
