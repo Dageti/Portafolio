@@ -24,8 +24,10 @@ const projects = [
   },
   {
     title: "Fernando-Matias-exercise-collaborative-html-website",
-    description: "Practice GIT by collaborating with others on building a landing page.",
-    github: "https://github.com/Dageti/Fernando-Matias-exercise-collaborative-html-website",
+    description:
+      "Practice GIT by collaborating with others on building a landing page.",
+    github:
+      "https://github.com/Dageti/Fernando-Matias-exercise-collaborative-html-website",
   },
   {
     title: "MR-forms",
@@ -39,7 +41,8 @@ const projects = [
   },
   {
     title: "excuse-generator",
-    description: "A fun project that generates random excuses using JavaScript.",
+    description:
+      "A fun project that generates random excuses using JavaScript.",
     github: "https://github.com/Dageti/excuse-generator",
   },
   {

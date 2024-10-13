@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/aboutme.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const AboutMe = () => {
   return (
@@ -23,7 +23,7 @@ const AboutMe = () => {
         for more projects.
       </p>
       <div className="social-links">
-        <a 
+        <a
           className="btn-linkedin"
           href="https://www.linkedin.com/in/matias-rivas-gallardo/"
           target="_blank"
