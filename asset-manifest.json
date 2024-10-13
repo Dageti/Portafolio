@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Dageti/Portafolio/static/css/main.29e26196.css",
+    "main.js": "/Dageti/Portafolio/static/js/main.2c7a0dbf.js",
+    "static/js/453.7d1ffe6d.chunk.js": "/Dageti/Portafolio/static/js/453.7d1ffe6d.chunk.js",
+    "index.html": "/Dageti/Portafolio/index.html",
+    "main.29e26196.css.map": "/Dageti/Portafolio/static/css/main.29e26196.css.map",
+    "main.2c7a0dbf.js.map": "/Dageti/Portafolio/static/js/main.2c7a0dbf.js.map",
+    "453.7d1ffe6d.chunk.js.map": "/Dageti/Portafolio/static/js/453.7d1ffe6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29e26196.css",
+    "static/js/main.2c7a0dbf.js"
+  ]
+}
