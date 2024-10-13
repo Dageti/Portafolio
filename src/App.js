@@ -3,7 +3,7 @@ import '../src/css/App.css';
 import '../src/css/home.css';
 import '../src/css/aboutme.css';
 
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from './components/navbar.jsx';
 import Home from './pages/home';
 import Projects from './pages/projects.jsx';
