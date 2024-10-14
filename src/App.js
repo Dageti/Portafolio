@@ -3,6 +3,7 @@ import "../src/css/App.css";
 import "../src/css/home.css";
 import "../src/css/aboutme.css";
 import "../src/css/index.css";
+import "../src/css/projectdetail.css";
 
 import {
   HashRouter as Router,
@@ -16,6 +17,7 @@ import Projects from "./pages/projects.jsx";
 import Aboutme from "./pages/aboutme.jsx";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n.js";
+import ProjectDetail from "./pages/projectdetail.jsx";
 
 const App = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<Aboutme />} />
+          <Route path="/project-detail" element={<ProjectDetail />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>

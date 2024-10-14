@@ -6,19 +6,13 @@ import { useTranslation } from "react-i18next";
 
 const AboutMe = () => {
   const { t } = useTranslation();
-  
+
   return (
     <div className="about-container">
       <h1>{t("aboutme.title")}</h1>
-      <p>
-      {t("aboutme.p1")}
-      </p>
-      <p>
-      {t("aboutme.p2")}
-      </p>
-      <p>
-      {t("aboutme.p3")}
-      </p>
+      <p>{t("aboutme.p1")}</p>
+      <p>{t("aboutme.p2")}</p>
+      <p>{t("aboutme.p3")}</p>
       <div className="social-links">
         <a
           className="btn-linkedin"
