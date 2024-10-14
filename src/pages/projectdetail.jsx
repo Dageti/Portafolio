@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const ProjectDetail = () => {
   const { t } = useTranslation();
   const location = useLocation();
-  const { title, description, mediaUrl, githubLink } = location.state || {};
+  const { title, description, mediaUrl, github } = location.state || {};
 
   return (
     <div className="project-detail-container">
@@ -25,7 +25,7 @@ const ProjectDetail = () => {
         <p>{description}</p>
         <div className="repo-btn">
           <a
-            href={githubLink}
+            href={github}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-dark"
