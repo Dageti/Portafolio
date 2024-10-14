@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Dageti/Portafolio/static/css/main.fb263d80.css",
-    "main.js": "/Dageti/Portafolio/static/js/main.c19bf19d.js",
-    "static/js/453.7d1ffe6d.chunk.js": "/Dageti/Portafolio/static/js/453.7d1ffe6d.chunk.js",
-    "index.html": "/Dageti/Portafolio/index.html",
-    "main.fb263d80.css.map": "/Dageti/Portafolio/static/css/main.fb263d80.css.map",
-    "main.c19bf19d.js.map": "/Dageti/Portafolio/static/js/main.c19bf19d.js.map",
-    "453.7d1ffe6d.chunk.js.map": "/Dageti/Portafolio/static/js/453.7d1ffe6d.chunk.js.map"
+    "main.css": "/Portafolio/static/css/main.fb263d80.css",
+    "main.js": "/Portafolio/static/js/main.744c0c64.js",
+    "static/js/453.7d1ffe6d.chunk.js": "/Portafolio/static/js/453.7d1ffe6d.chunk.js",
+    "index.html": "/Portafolio/index.html",
+    "main.fb263d80.css.map": "/Portafolio/static/css/main.fb263d80.css.map",
+    "main.744c0c64.js.map": "/Portafolio/static/js/main.744c0c64.js.map",
+    "453.7d1ffe6d.chunk.js.map": "/Portafolio/static/js/453.7d1ffe6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb263d80.css",
-    "static/js/main.c19bf19d.js"
+    "static/js/main.744c0c64.js"
   ]
 }
