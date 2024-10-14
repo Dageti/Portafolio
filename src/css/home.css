@@ -28,5 +28,6 @@
 }
 
 .hero a:hover {
-  background-color: #1a1414;
+  background-color: #1a141400;
+  color: whitesmoke;
 }

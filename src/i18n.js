@@ -20,6 +20,7 @@ const resources = {
         "Feel free to reach out to me through my LinkedIn or check out my GitHub for more projects.",
         "projects.pagetitle": "My projects",
       "projects.button": "Repository",
+      "projects.detail": "No media available for this project, come back later.",
     },
   },
   es: {
@@ -40,6 +41,7 @@ const resources = {
         "No dudes en contactarme a través de mi LinkedIn o consultar mi GitHub para ver más proyectos.",
         "projects.pagetitle": "Mis proyectos",
         "projects.button": "Repositorio",
+        "projects.detail": "No hay multimedia disponible para este proyecto, vuelva más tarde.",
     },
   },
 };
