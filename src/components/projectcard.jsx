@@ -2,12 +2,12 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
-const ProjectCard = ({ title, description, githubLink, mediaURL }) => {
+const ProjectCard = ({ title, description, githubLink, mediaUrl }) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
 const handleViewDetails = () =>{
-  navigate('/project-detail', {state: {title, description, githubLink, mediaURL}});
+  navigate('/project-detail', {state: {title, description, githubLink, mediaUrl}});
 };
   return (
     <div className="card project-card">
