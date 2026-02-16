@@ -30,6 +30,7 @@ const App = () => {
           <Route path="/about" element={<Aboutme />} />
           <Route path="/project-detail" element={<ProjectDetail />} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/cubicacion" element={<Cubicacion />} />
         </Routes>
       </Router>
     </I18nextProvider>
